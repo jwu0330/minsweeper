@@ -39,7 +39,7 @@ def print_lose():
         Label(window, fg = "blue", 
             font = ("bole", 16), text = "you lose.", 
             justify = LEFT).grid(row = 10, columnspan = 4)
-    
+
 def destroy_button(i, j):
     t = StringVar()
     buttons[i][j].destroy()
@@ -108,3 +108,4 @@ m = Button(window, text = "chanage", width = 8, height = 2, command = change)
 m.grid(row = 9, column = 0, columnspan= 3 )
 
 mainloop()
+# test add
