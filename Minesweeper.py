@@ -40,7 +40,6 @@ def print_lose():
             font = ("bole", 16), text = "you lose.", 
             justify = LEFT).grid(row = 10, columnspan = 4)
     
-
 def destroy_button(i, j):
     t = StringVar()
     buttons[i][j].destroy()
